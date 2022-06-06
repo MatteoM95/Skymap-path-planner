@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29326.143
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SkymapPathfinderGUI", "SkymapPathfinderGUI.csproj", "{232715B9-0FCC-4AEB-A70D-563A866928BA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{232715B9-0FCC-4AEB-A70D-563A866928BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{232715B9-0FCC-4AEB-A70D-563A866928BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{232715B9-0FCC-4AEB-A70D-563A866928BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{232715B9-0FCC-4AEB-A70D-563A866928BA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F9B3A713-8220-4E8D-9659-CC604FFE42BC}
+	EndGlobalSection
+EndGlobal
