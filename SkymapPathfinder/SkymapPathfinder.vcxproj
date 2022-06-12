@@ -129,7 +129,7 @@
   <ItemGroup>
     <ClCompile Include="degribClass.cpp" />
     <ClCompile Include="DijkstraLib.cpp" />
-    <ClCompile Include="downloadGribURL.cpp" />
+    <ClCompile Include="skymapPathfinder.cpp" />
     <ClCompile Include="gribURLManage.cpp" />
     <ClCompile Include="Point.cpp" />
   </ItemGroup>

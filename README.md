@@ -30,10 +30,11 @@ Download and [install](https://vlab.noaa.gov/web/mdl/degrib-install) Degrib prog
 Two executables will be created (in the installation folder) from the installation: 
  - degrib.exe
  - tkdegrib.exe
+
 The first program is runned from the command line, the second is the same program with the user interface. 
 **WARNING**: The degrib.exe file must be in the same folder of compiled code of the Skymap path planner.
-##### Convert binary file to ASCII Comma Separated file:
-You can use degrib to convert a given message to a .csv file, which each line contains x, y, lat, lon, value for each cell of the map. 
+#### Convert binary file to ASCII Comma Separated file:
+You can use degrib to convert a given binary grib2 to a .csv file, which each line contains x, y, lat, lon, value for each cell of the map. 
  - In the GUI tkdegrib:
 Click on the "GIS" tab, and browse for your file. Double click on it in the top half, and it should fill out the inventory part in the bottom half. Select the message that you want in the bottom half, and choose the output name (or press "Recommend" to have tkdegrib "recommend" one. Next choose "CSV" for "File Type", and press the "Generate .csv file" button at the bottom. The TkDegrib manual is available [here](https://vlab.noaa.gov/web/mdl/tk-degrib-man-page)
  - For the Degrib.exe use the following command lines:
@@ -51,8 +52,9 @@ There are various code:
  - The same program with a GUI in C # with dijkstra [here](https://github.com/MatteoM95/Skymap-path-planner/tree/main/SkymapPathfinderGUI)
  - A program with the openweather.org API has also been created test but never used  
 
-In the CPP SkymapPathfinder.exe command line the parameters passed are in order
-0. Program name and path folder (obviously)
+In the CPP SkymapPathfinder.exe command line the parameters passed are in order:
+
+0. Program name and path folder
 1. Hours from now forecast (max 120) and must be 3 digit ie. 030
 2. North latitude area to explore
 3. South latitude area to explore
