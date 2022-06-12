@@ -70,5 +70,6 @@ Example:
 SkymapPathfinder.exe 030 48 40 10 20 25 C:\Skymap 46 11 42 19.5
 ```
 In the example above, the weather forecast requested is 30 hours from now with an area bounded to north 48, south 40, west 10 and east 20 degrees, taking only the parameter 25 (high level cloud), the working directory where stores files is "C:\Skymap", with a start point in 46 N 11 E and a finish point in 42 N 19.5 E
-
-<img src= "https://github.com/MatteoM95/Skymap-path-planner/blob/main/Media/path.gif" width="350" height="250" />
+<p align="center">
+  <img src= "https://github.com/MatteoM95/Skymap-path-planner/blob/main/Media/path.gif" width="350" height="350" />
+</p>
