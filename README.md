@@ -51,8 +51,9 @@ There are various code:
  - The same program with a GUI in C # with dijkstra [here](https://github.com/MatteoM95/Skymap-path-planner/tree/main/SkymapPathfinderGUI)
  - A program with the openweather.org API has also been created test but never used  
 
-In the CPP SkymapPathfinder.exe command line the parameters passed are in order
-0. Program name and path folder (obviously)
+In the CPP SkymapPathfinder.exe command line the parameters passed are in order:
+
+0. Program name and path folder
 1. Hours from now forecast (max 120) and must be 3 digit ie. 030
 2. North latitude area to explore
 3. South latitude area to explore
