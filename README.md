@@ -2,7 +2,7 @@
 <!--- [Alt Text](https://github.com/MatteoM95/Skymap-path-planner/blob/main/Media/path.gif) --->
 
 ### Overview
-The following program calculate the best path between two given point on a weighted matrix. The weighted matrix represents the percentage of clouds in the sky in certain moment. The UAV uses photovoltaic power to fly and should avoid clouds in upper level in the sky.
+The following program calculate the best path between two given point on a weighted matrix. The weighted matrix represents the percentage of clouds in the sky in a certain moment. The UAV uses photovoltaic power to fly and should avoid clouds in upper level in the sky.
 The weather is provided by the American NOAA service in grib2 file format (file.grb2). 
 
 Xplane has its own [weather plugin](https://x-plane.joanpc.com/plugins/xpgfs-noaa-weather), which uses the same data, to install it you need to get the zip file and manually copy the files to the folder. Here is a [tutorial](https://www.youtube.com/watch?v=8Nv_fM4RtaQ) how to install it 
