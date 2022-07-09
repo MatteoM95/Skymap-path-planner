@@ -32,8 +32,11 @@ Two executables will be created (in the installation folder) from the installati
  - tkdegrib.exe
 
 The first program is runned from the command line, the second is the same program with the user interface. 
+
 **WARNING**: The degrib.exe file must be in the same folder of compiled code of the Skymap path planner.
+
 ### Convert binary file to ASCII Comma Separated file:
+
 You can use degrib to convert a given binary grib2 to a .csv file, which each line contains x, y, lat, lon, value for each cell of the map. 
  - In the GUI tkdegrib:
 Click on the "GIS" tab, and browse for your file. Double click on it in the top half, and it should fill out the inventory part in the bottom half. Select the message that you want in the bottom half, and choose the output name (or press "Recommend" to have tkdegrib "recommend" one. Next choose "CSV" for "File Type", and press the "Generate .csv file" button at the bottom. The TkDegrib manual is available [here](https://vlab.noaa.gov/web/mdl/tk-degrib-man-page)
@@ -75,6 +78,7 @@ In the example above, the weather forecast requested is 30 hours from now with a
 
 ## Results
 The final path will be saved in .csv file, in each rows is saved the Latitude and Longitude of the point. 
+
 The result as it should appear is displayed below:
 
 <p align="center">
