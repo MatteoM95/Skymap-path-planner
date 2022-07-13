@@ -105,3 +105,11 @@ The result as it should appear is displayed below:
 <p align="center">
   <img src= "https://github.com/MatteoM95/Skymap-path-planner/blob/main/Media/path.gif" width="350" height="350" />
 </p>
+
+<a name="contributors" />
+
+### Contributors
+
+<a href="https://github.com/MatteoM95/Skymap-path-planner/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=MatteoM95/Skymap-path-planner" />
+</a>
