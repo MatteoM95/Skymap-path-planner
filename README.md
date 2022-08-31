@@ -72,9 +72,10 @@ The -Csv option tells it to create the .csv file. See the [Degrib manual](https:
 There are various code:
  - A program executable in CPP with command line parameters [here](https://github.com/MatteoM95/Skymap-path-planner/tree/main/SkymapPathfinder)
  - The same program with a GUI in C # with dijkstra [here](https://github.com/MatteoM95/Skymap-path-planner/tree/main/SkymapPathfinderGUI)
- - A program with the openweather.org API has also been created test but never used  
+ - A program with the openweather.org API has also been created test but never used [here](https://github.com/MatteoM95/Skymap-path-planner/tree/main/SkymapPathfinderAPI)
 
-In the CPP SkymapPathfinder.exe command line the parameters passed are in order:
+###CPP SkymapPathfinder
+In the CPP SkymapPathfinder.exe command line the parameters are in order:
 
 0. Program name and path folder
 1. Hours from now forecast (max 120) and must be 3 digit ie. 030
