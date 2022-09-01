@@ -104,7 +104,7 @@ The final path will be saved in .csv file, in each rows is saved the Latitude an
 The result as it should appear is displayed below:
 
 <p align="center">
-  <img src= "https://github.com/MatteoM95/assets/Skymap-path-planner/blob/main/Media/path.gif" width="350" height="350" />
+  <img src= "https://github.com/MatteoM95/Skymap-path-planner/tree/main/assets/Media/path.gif" width="350" height="350" />
 </p>
 
 <a name="contributors" />
